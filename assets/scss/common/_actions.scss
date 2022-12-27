@@ -94,12 +94,16 @@
     font-style: normal;
     line-height: 100%;
 
+    span {
+      font-family: sans-serif;
+    }
+
     @include ul {
       margin-bottom: 20px;
     }
 
     @include lg {
-      max-width: 400px;
+      max-width: 380px;
       margin-bottom: 20px;
     }
 
@@ -108,7 +112,7 @@
     }
 
     @include xs {
-      max-width: 350px;
+      max-width: 340px;
       margin-bottom: 10px;
 
       font-size: $font-size-33;
